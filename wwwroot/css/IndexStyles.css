@@ -1,0 +1,13 @@
+﻿.mx {
+    margin: 0 15rem 0 15rem;
+}
+
+.selectborder {
+    border: 1px solid #4A92FE;
+    border-radius: 0.8rem;
+}
+
+.border-status {
+    border-radius: 0.8rem;
+    border: 1px solid;
+}

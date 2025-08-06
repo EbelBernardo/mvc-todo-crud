@@ -168,3 +168,4 @@ C:\dev-projetos\ToDoList-MVC\ToDoList-MVC\obj\Debug\net8.0\refint\ToDoList-MVC.d
 C:\dev-projetos\ToDoList-MVC\ToDoList-MVC\obj\Debug\net8.0\ToDoList-MVC.pdb
 C:\dev-projetos\ToDoList-MVC\ToDoList-MVC\obj\Debug\net8.0\ToDoList-MVC.genruntimeconfig.cache
 C:\dev-projetos\ToDoList-MVC\ToDoList-MVC\obj\Debug\net8.0\ref\ToDoList-MVC.dll
+C:\dev-projetos\ToDoList-MVC\ToDoList-MVC\obj\Debug\net8.0\ToDoList-MVC.sourcelink.json

@@ -50,8 +50,6 @@ O objetivo é praticar os fundamentos da arquitetura MVC, manipulação de dados
    ```bash
    dotnet run
 
---- 
-
 ## Estrutura do Projeto
   ```
     /Controllers        - Lógica dos endpoints (TasksController)
@@ -62,12 +60,8 @@ O objetivo é praticar os fundamentos da arquitetura MVC, manipulação de dados
     /Program.cs         - Inicialização da aplicação
   ```
 
----
-
 ## Contribuições 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
-
----
 
 ## Autor
 Bernardo Ebel <br>

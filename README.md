@@ -2,8 +2,8 @@
 
 ## Descrição
 
-Este é um projeto desenvolvido com ASP.NET MVC, utilizando Entity Framwork e SQL Server LocalDB para persistência de dados. A aplicação implementa um CRUD de tarefas, com uma interface simples baseada em Bootstrap.
-O objetivo é praticar os fundamentos da arquitetura MVC, manipulação de dados com Entity Framwork, e contrução de views com Razor e Data Annotations.
+Este é um projeto desenvolvido com ASP.NET MVC, utilizando Entity Framework e SQL Server LocalDB para persistência de dados. A aplicação implementa um CRUD de tarefas, com uma interface simples baseada em Bootstrap.
+O objetivo é praticar os fundamentos da arquitetura MVC, manipulação de dados com Entity Framework, e contrução de views com Razor e Data Annotations.
 
 ---
 

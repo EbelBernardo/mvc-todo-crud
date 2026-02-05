@@ -1,68 +1,121 @@
-# Projeto ToDo List - ASP.NET MVC
+# Task Management System - ASP.NET MVC
 
-## Descrição
+Task management web application developed in ASP.NET MVC, using Entity Framework Core and SQL Server LocalDB for data persistence.
 
-Este é um projeto desenvolvido com ASP.NET MVC, utilizando Entity Framework e SQL Server LocalDB para persistência de dados. A aplicação implementa um CRUD de tarefas, com uma interface simples baseada em Bootstrap.
-O objetivo é praticar os fundamentos da arquitetura MVC, manipulação de dados com Entity Framework, e contrução de views com Razor e Data Annotations.
-
----
-
-## Funcionalidades
-
-- Cadastro de tarefas com título obrigatório
-- Marcar e desmarcar tarefas como concluídas
-- Exclusão de tarefas com confirmação
-- Filtro visual por status (concluída ou pendente)
-- Exibição simples e organizada com Bootstrap
+The project implements a CRUD workflow for managing tasks, with server-side validation, UI state management and persistence.
+It focuses on applying MVC architecture, domain modeling and backend-driven UI rendering.
 
 ---
 
-## Tecnologias Utilizadas
+## 🎯 Purpose
+
+This project was developed for educational purposes to practice and consolidate key backend and web development concepts, including:
+
+- Building MVC-based web applications in ASP.NET
+- Implementing CRUD operations with persistence
+- Applying server-side validation with Data Annotations
+- Managing application state (completed vs pending tasks)
+- Structuring a project using separation of concerns
+- Integrating controllers, database and Razor views
+
+---
+
+## 🛠 Technologies Used
+
+- C#
 - .NET 8
 - ASP.NET MVC
 - Entity Framework Core
 - SQL Server LocalDB
-- C#
 - Bootstrap 5
 - Razor Views
 
 ---
 
-## Como rodar o Projeto
+## 📁 Project Structure
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/EbelBernardo/mvc-todo-crud.git
+   ```
+      /Controllers
+        TasksController   → Handles HTTP requests and application flow
+      /Models
+        TaskItem          → Domain entity representing a task
+      /Data
+        AppDbContext      → Entity Framework Core database context
+      /Views/Tasks
+        Razor pages for task management
+      /wwwroot
+        Static assets (CSS, JS, etc.)
+      /Program.cs
+        Application bootstrap and configuration
+   ```
 
-2. Navegue até a pasta do projeto
-   ```bash
-   cd ToDoList-MVC
+## 🚀 Running the Project 
 
-3. Restaure os pacotes NuGet
-   ```bash
-   dotnet restore
+Clone the repository
+   ```
+      git clone https://github.com/EbelBernardo/mvc-todo-crud.git
+   ```
 
-4. Execute as migrações do Entity Framework Core para criar o banco de dados:
-   ```bash
-   dotnet ef database update
+Navigate to the project folder
+   ```
+      cd ToDoList-MVC
+   ```
 
-5. Rode o projeto
-   ```bash
-   dotnet run
+Restore NuGet packages
+   ```
+      dotnet restore
+   ```
 
-## Estrutura do Projeto
-  ```
-    /Controllers        - Lógica dos endpoints (TasksController)
-    /Models             - Classe de domínio (TaskItem)
-    /Data               - AppDbContext com Entity Framework
-    /Views/Tasks        - Páginas Razor da aplicação
-    /wwwroot            - Arquivos estáticos (CSS, JS, etc)
-    /Program.cs         - Inicialização da aplicação
-  ```
+Apply Entity Framework migrations
+   ```
+      dotnet ef database update
+   ```
 
-## Contribuições 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+Run the application
+   ```
+      dotnet run
+   ```
 
-## Autor
+---
+
+## 🧩 Core Features
+
+- Create tasks with required title validation
+- Mark and unmark tasks as completed
+- Delete tasks with confirmation
+- Visual filtering by task status
+- Clean and responsive UI with Bootstrap
+
+---
+
+## 🧠 Architecture
+
+- The application follows the ASP.NET MVC pattern:
+- Models represent the domain and database entities
+- Controllers handle HTTP requests and orchestrate business logic
+- Views render the UI using Razor
+- Entity Framework Core is used to persist task data, allowing the application state to survive restarts and enabling a real database-backed workflow.
+
+---
+
+## 📌 Project Status
+
+✔️ Completed for study and learning purposes.
+
+---
+
+## 📄 License
+
+This project is free to use for educational purposes.
+
+---
+
+## 👤 Autor
 Bernardo Ebel <br>
 [GitHub](https://github.com/EbelBernardo) | [LinkedIn](https://www.linkedin.com/in/bernardo-ebel-743831303/)
+
+--- 
+
+## 🧠 Final Note
+
+This project represents a practical study of backend-driven web applications using ASP.NET MVC, focusing on persistence, validation, and architectural organization rather than just UI.
